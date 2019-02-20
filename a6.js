@@ -47,8 +47,8 @@ function draw(how_many_time, distance)
     for(var i = 0; i < how_many_time; i++)
     {
       drawObject(x, y); 
-      x += 60;
-      y += 30;
+      x += distance;
+      y += distance;
     }
 }
 
